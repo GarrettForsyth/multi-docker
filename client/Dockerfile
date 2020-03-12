@@ -8,4 +8,4 @@ RUN npm run build
 FROM nginx
 EXPOSE 3000
 COPY ./nginx/deafult.conf /etc/nginx/conf.d/deafult.conf
-COPY --from-builder /app/build /usr/share/nginx/html
+COPY --from=builder /app/build /usr/share/nginx/html
