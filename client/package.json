@@ -7,7 +7,13 @@
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4",
     "react-router-dom": "4.3.1",
-    "axios": "0.18.0"
+    "axios": "0.18.0",
+    "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
   },
   "scripts": {
     "start": "react-scripts start",
